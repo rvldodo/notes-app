@@ -1,0 +1,69 @@
+@import url("https://fonts.cdnfonts.com/css/jost");
+@import url("https://fonts.cdnfonts.com/css/itim");
+
+:root {
+	background: #0c2d48;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@layer utilities {
+	.fontJost {
+		font-family: "Jost*", sans-serif;
+	}
+	.fontItim {
+		font-family: "Itim", sans-serif;
+	}
+}
+
+@layer components {
+	/* Background */
+	.bgMidnightBlue {
+		@apply bg-[#145da0];
+	}
+	.bgDarkBlue {
+		@apply bg-[#0c2d48];
+	}
+	.bgBlue {
+		@apply bg-[#2e8bc0];
+	}
+	.bgBabyBlue {
+		@apply bg-[#b1d4e0];
+	}
+
+	/* Text */
+	.textMidnightBlue {
+		@apply text-[#145da0];
+	}
+	.textDarkBlue {
+		@apply text-[#0c2d48];
+	}
+	.textBlue {
+		@apply text-[#2e8bc0];
+	}
+	.textBabyBlue {
+		@apply text-[#b1d4e0];
+	}
+
+	/* Paddings */
+	.paddingX {
+		@apply px-[15vw];
+	}
+	.paddingY {
+		@apply py-[2rem];
+	}
+
+	/* Fonts size */
+	.textHeader {
+		@apply text-[10rem] fontItim tracking-wide textBabyBlue;
+	}
+	.textTitle {
+		@apply text-[1.5rem] fontItim textBabyBlue;
+	}
+	.textParagraph {
+		@apply text-[1.25rem] fontJost font-light textBabyBlue;
+	}
+}
