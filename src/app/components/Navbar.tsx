@@ -11,7 +11,7 @@ export default function Navbar() {
 			<div className="textBabyBlue fontJost flex items-center justify-between gap-10">
 				<Link href="/">Home</Link>
 				<Link href="/about">About</Link>
-				<Button />
+				<Button route="login" text="Sign in" />
 			</div>
 		</div>
 	);

@@ -64,6 +64,9 @@
 		@apply text-[1.5rem] fontItim textBabyBlue;
 	}
 	.textParagraph {
-		@apply text-[1.25rem] fontJost font-light textBabyBlue;
+		@apply text-[1.25rem] fontItim font-light textBabyBlue;
+	}
+	.textParagraph2 {
+		@apply text-[2.5rem] fontItim font-light textBabyBlue;
 	}
 }

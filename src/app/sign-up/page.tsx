@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "../components/Form";
 
-export default function login() {
+export default function signUp() {
 	return (
 		<div className="min-h-screen flex flex-col justify-center items-center paddingX">
 			<h1 className="textHeader textBabyBlue">WELCOME</h1>
